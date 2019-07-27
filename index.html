@@ -1,11 +1,81 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Ejercicios JavaScript</title>
+
+<head>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Agregue las "librerias" -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Taller JavaScript</title>
     <script src="ejercicio1.js"></script>
     <script src="ejercicio2.js"></script>
     <script src="ejercicio3.js"></script>
-  </head>
-  <body>
-  </body>
+</head>
+
+<body>
+
+    <!--Seccion resultados-->
+    <section id="empresa">
+        <div class="contenido-seccion">
+            <div class="container">
+
+                <!-- inicio tabla -->
+                <div class="container my-5 text-center">
+                    <button onclick="Sumar()" type="button" class="btn btn-primary">Mostrar ejercicio 1</button>
+
+                    <button onclick="Edad()" type="button" class="btn btn-primary">Mostrar ejercicio 2</button>
+
+                    <button onclick="Doble()" type="button" class="btn btn-primary">Mostrar ejercicio 3</button>
+
+                    <div class="mt-5">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Resultado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td id="r1"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td id="r2"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td id="r3"></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td id="r4"></td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+
+
+                <!-- fin tabla -->
+            </div>
+        </div>
+    </section>
+    <!--Fin Seccion resultados-->
+
+</body>
+
 </html>

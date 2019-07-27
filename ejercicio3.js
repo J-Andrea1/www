@@ -24,11 +24,22 @@ arrayDoble(array, (value) => {
 
 // Prueba (No modificar!)
 
-if (array.length === 3 &&
-    array[0] === 4 &&
-    array[1] === 6 &&
-    array[2] === 8) {
-    console.log('Ejercicio 3 paso el test!');
-} else {
-    console.log('Ejercicio 3 no paso el test!');
+function Doble() {
+
+    if (array.length === 3 &&
+        array[0] === 4 &&
+        array[1] === 6 &&
+        array[2] === 8) {
+        console.log('Ejercicio 3 paso el test!');
+
+        document.getElementById('r1').innerHTML = array.length;
+        document.getElementById('r2').innerHTML = array[0];
+        document.getElementById('r3').innerHTML = array[1];
+        document.getElementById('r4').innerHTML = array[2];
+
+
+
+    } else {
+        console.log('Ejercicio 3 no paso el test!');
+    }
 }
